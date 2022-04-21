@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <section class="main">
+
+        <section class="elements">
+
+            <div class="header"></div>
+
+            <div class="name">
+                <p>To-Do List</p>
+            </div>
+
+            <div class="filter-div">
+
+                <button class="clear-all-btn">
+                    <img class="clear-all" src="./assets/Photos/delete.png" alt="#">
+                </button>
+                <button class="filter">
+                    <img class="image_filter" src="./assets/Photos/menu.svg" alt="filter">
+                </button>
+
+                
+            </div>
+
+                <div class="tasksDiv">
+                    
+                    <input class="enterTaskInput" onfocus="this.value=''" type="text" placeholder="What do you need to do?">
+                    
+                    <ul>
+                    </ul>
+                    
+                </div>
+                <span class="errorMessage"></span>
+                
+            <div class="btnDiv">
+                <button class="addBtn">
+                    <p class="addBtnText">Add Task</p>
+                </button>
+            </div>
+        </section>
+
+    </section>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
